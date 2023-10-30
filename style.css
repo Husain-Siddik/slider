@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+html,body{
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+    /* parant div er pozision reletive deda valo.. */
+}
+
+#nav{
+    height: 110px;
+    padding: 0 30px;   /* protom ta upor nice -dritio ta bame dane */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+#nav img{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    margin-right: 150px;
+}
+#nav img:hover{
+   opacity: 49%;
+}
+#nav_part_one{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    /* justify-content:center; */
+    /* justify-content: space-between; */
+}
+#nav_part_one h4{
+    
+    font-size:20px;
+    margin-right: 50px;     /* ikon er teke duruttoh  */
+    font-weight: 500;
+}
+#nav_part_one h4 a{
+    transform-style: flat;
+    background-color: black;
+    color: bisque;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+   border-bottom-left-radius: 0px;
+}
+#nav_part_one h4 a:hover{
+    color:#AFB7C7;
+    /* background-color:#AFB7C7; */
+}
+#nav_part_Two i{
+    font-size:20px; 
+    margin-right: 50px;
+    font-weight: 500;
+}
+#contant{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+   
+}
+#left{
+    width: 30%;
+    height: 100%;
+    padding: 50px  120px;
+}
+#left h5{
+    padding: 20px;
+    color: #737474;
+    width: 70%;
+}
+#left h1{
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#left button{
+    background: black;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-top-left-radius:0px ;
+}
+
+#right{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(13, 255, 0); */
+    position: relative;
+    white-space: nowrap; /*  sob akline e takbe*/
+    overflow-x: auto;
+}
+/* #right::-webkit-scrollbar{
+   
+    display:;
+} */
+
+.elem{
+    height: 435px;
+    width: 360px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: azure;
+    position:relative;
+    display: inline-block;
+}
+.elem img{
+    height: 65%;
+    width: 100%;
+    top: 12%;
+    /* object-fit: cover; */
+    position: absolute;
+   
+}
+.elem h4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #D0D4D5;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius:0px;
+
+}
+.elem h5{
+    position: absolute;
+    bottom: 8%;
+    right: 0px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    text-transform: uppercase;
+    background-color: #021519;
+    color: #D0D4D5;
+    
+
+}
